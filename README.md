@@ -75,3 +75,6 @@ Abhishek Chakraborty
 
 🔗 Tableau Public Profile:
 https://public.tableau.com/app/profile/abhishek.chakraborty8386
+
+- 📧 Email: abhishekchakraborty22@yahoo.com
+- 🔗 GitHub: https://github.com/abhishek22631
