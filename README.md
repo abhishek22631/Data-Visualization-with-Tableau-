@@ -1,22 +1,77 @@
 # Data-Visualization-with-Tableau-
 
-In this project, I have created a series of interactive Tableau dashboards analyzing the Amazon Bestsellers (2009–2019) dataset, which contains details of top-selling books over a decade, including book title, author, user rating (out of 5), number of reviews, price, year, and genre (Fiction/Non-Fiction).
-Leveraged Tableau to uncover insights on author performance, reader engagement, pricing patterns, and genre popularity. Applied aggregation functions, bar and column charts, and data storytelling techniques to present findings in an accessible format. Published all dashboards on Tableau Public for public viewing and portfolio demonstration.
+## Project Overview
 
-ndividual Dashboard Descriptions (with dataset mention)
+This project focuses on analyzing and visualizing the Amazon Bestsellers (2009–2019) dataset using Tableau. The dataset, provided in MS Excel format, contains information about bestselling books over a decade, including author details, user ratings, reviews, prices, publication year, and genre classification.
 
-1. User Ratings by Author
+The goal of this project is to uncover insights related to author performance, reader engagement, pricing patterns, and genre popularity, and to present these insights through clear and interactive visualizations.
 
-Using Amazon Bestsellers (2009–2019) data, this dashboard visualizes the total user ratings accumulated by each author, highlighting those with the highest overall reader satisfaction.
+## Dataset Description
 
-2. Reviews by Author
+| Column Name | Description
+|---|---|
+| Name | Book Title |
+| Author | Author of the Book |
+| User Rating | Average user rating (out of 5) |
+| Revies | Number of User Reviews |
+| Price | Price of the book (USD) |
+| Year | Year the book appeared on the bestseller list |
+| Genre | Fiction or Non-Fiction |
 
-Displays the total number of reviews each author’s books have received, based on the Amazon Bestsellers dataset. Provides insight into audience engagement and feedback volume.
+## Tools & Technologies Used
 
-3. Book Prices per Author
+- **Tableau -** Data visualization and dashboard creation
+- **MS Excel -** Source dataset format
+- **Tableau Public -** Publishing and sharing dashboards
 
-Compares cumulative or average book prices across authors from the Amazon Bestsellers dataset, helping identify premium vs. budget publishing strategies.
+## Visualisations Created
 
-4. Genre-wise Bestseller Comparison
+### 1. User Ratings by Author
 
-Uses the dataset’s genre field to compare Fiction vs. Non-Fiction bestseller counts, revealing category dominance during the dataset’s timeframe.
+- Visualizes the sum of user ratings for each author.
+- Highlights authors with high cumulative reader satisfaction across multiple bestselling books.
+
+🔗 Dashboard Link:
+https://public.tableau.com/app/profile/abhishek.chakraborty8386/viz/DataVisualisation-AuthorsUserRating/Sheet1
+
+### 2. Reviews by Author
+
+- Displays the total number of reviews received by books written by each author.
+- Provides insight into reader engagement and feedback volume.
+
+🔗 Dashboard Link: https://public.tableau.com/app/profile/abhishek.chakraborty8386/viz/DataVisualisation-AuthorReviews/Sheet2
+
+### 3. Book Prices by Author
+
+- Compares book prices across authors using aggregated pricing values.
+- Helps identify premium vs. budget pricing trends among bestselling authors.
+
+🔗 Dashboard Link: https://public.tableau.com/app/profile/abhishek.chakraborty8386/viz/PriceofBooksaspertheirAuthors/Sheet3
+
+### 4. Bestseller Count by Genre
+
+- Compares the number of bestselling books in Fiction and Non-Fiction categories.
+- Highlights genre dominance during the dataset timeframe.
+
+🔗 Dashboard Link: https://public.tableau.com/app/profile/abhishek.chakraborty8386/viz/ComparisonofBestSellersbyGenere/Sheet4
+
+## Key Insights 
+
+- Authors with multiple bestselling titles tend to accumulate higher total ratings and reviews.
+- Reader engagement varies significantly across authors.
+- Pricing patterns differ among authors, indicating varied publishing strategies.
+- Fiction and Non-Fiction genres show distinct representation among bestsellers.
+
+## Project Highlights
+
+- Applied aggregation functions (SUM, COUNT) in Tableau.
+- Designed bar and column charts for clarity and comparison.
+- Followed data visualization best practices for readability and insight.
+- Published dashboards on Tableau Public for accessibility and portfolio use.
+
+## Author
+
+Abhishek Chakraborty
+
+🔗 Tableau Public Profile:
+https://public.tableau.com/app/profile/abhishek.chakraborty8386
